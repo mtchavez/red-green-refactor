@@ -1,0 +1,18 @@
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
