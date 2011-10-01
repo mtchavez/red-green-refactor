@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFF69FD1437CB5000DB9782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FC1437CB5000DB9782 /* UIKit.framework */; };
+		CDFF69FF1437CB5000DB9782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FE1437CB5000DB9782 /* Foundation.framework */; };
+		CDFF6A011437CB5000DB9782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */; };
+		CDFF6A031437CB5000DB9782 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A021437CB5000DB9782 /* CoreData.framework */; };
+		CDFF6A091437CB5000DB9782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFF6A071437CB5000DB9782 /* InfoPlist.strings */; };
+		CDFF6A0B1437CB5000DB9782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6A0A1437CB5000DB9782 /* main.m */; };
+		CDFF6A0F1437CB5000DB9782 /* RedGreenRefactorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6A0E1437CB5000DB9782 /* RedGreenRefactorAppDelegate.m */; };
+		CDFF6A121437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6A101437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld */; };
+		CDFF6A161437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6A151437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m */; };
+		CDFF6A191437CB5000DB9782 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFF6A171437CB5000DB9782 /* MainWindow_iPhone.xib */; };
+		CDFF6A1D1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6A1C1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.m */; };
+		CDFF6A201437CB5000DB9782 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFF6A1E1437CB5000DB9782 /* MainWindow_iPad.xib */; };
+		CDFF6A281437CB5000DB9782 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A271437CB5000DB9782 /* SenTestingKit.framework */; };
+		CDFF6A291437CB5000DB9782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FC1437CB5000DB9782 /* UIKit.framework */; };
+		CDFF6A2A1437CB5000DB9782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FE1437CB5000DB9782 /* Foundation.framework */; };
+		CDFF6A2B1437CB5000DB9782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */; };
+		CDFF6A2C1437CB5000DB9782 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A021437CB5000DB9782 /* CoreData.framework */; };
+		CDFF6A341437CB5000DB9782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFF6A321437CB5000DB9782 /* InfoPlist.strings */; };
+		CDFF6A361437CB5000DB9782 /* RedGreenRefactorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CDFF6A351437CB5000DB9782 /* RedGreenRefactorTests.h */; };
+		CDFF6A381437CB5000DB9782 /* RedGreenRefactorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6A371437CB5000DB9782 /* RedGreenRefactorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDFF6A2D1437CB5000DB9782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFF69EF1437CB5000DB9782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFF69F71437CB5000DB9782;
+			remoteInfo = RedGreenRefactor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDFF69F81437CB5000DB9782 /* RedGreenRefactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedGreenRefactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFF69FC1437CB5000DB9782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDFF69FE1437CB5000DB9782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDFF6A021437CB5000DB9782 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDFF6A061437CB5000DB9782 /* RedGreenRefactor-Info.plist */ = {isa = PBXFileReference; path = "RedGreenRefactor-Info.plist"; sourceTree = "<group>"; };
+		CDFF6A081437CB5000DB9782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFF6A0A1437CB5000DB9782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFF6A0C1437CB5000DB9782 /* RedGreenRefactor-Prefix.pch */ = {isa = PBXFileReference; path = "RedGreenRefactor-Prefix.pch"; sourceTree = "<group>"; };
+		CDFF6A0D1437CB5000DB9782 /* RedGreenRefactorAppDelegate.h */ = {isa = PBXFileReference; path = RedGreenRefactorAppDelegate.h; sourceTree = "<group>"; };
+		CDFF6A0E1437CB5000DB9782 /* RedGreenRefactorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedGreenRefactorAppDelegate.m; sourceTree = "<group>"; };
+		CDFF6A111437CB5000DB9782 /* RedGreenRefactor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedGreenRefactor.xcdatamodel; sourceTree = "<group>"; };
+		CDFF6A141437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = RedGreenRefactorAppDelegate_iPhone.h; path = iPhone/RedGreenRefactorAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		CDFF6A151437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RedGreenRefactorAppDelegate_iPhone.m; path = iPhone/RedGreenRefactorAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		CDFF6A181437CB5000DB9782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		CDFF6A1B1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.h */ = {isa = PBXFileReference; name = RedGreenRefactorAppDelegate_iPad.h; path = iPad/RedGreenRefactorAppDelegate_iPad.h; sourceTree = "<group>"; };
+		CDFF6A1C1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RedGreenRefactorAppDelegate_iPad.m; path = iPad/RedGreenRefactorAppDelegate_iPad.m; sourceTree = "<group>"; };
+		CDFF6A1F1437CB5000DB9782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		CDFF6A261437CB5000DB9782 /* RedGreenRefactorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedGreenRefactorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFF6A271437CB5000DB9782 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CDFF6A311437CB5000DB9782 /* RedGreenRefactorTests-Info.plist */ = {isa = PBXFileReference; path = "RedGreenRefactorTests-Info.plist"; sourceTree = "<group>"; };
+		CDFF6A331437CB5000DB9782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFF6A351437CB5000DB9782 /* RedGreenRefactorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedGreenRefactorTests.h; sourceTree = "<group>"; };
+		CDFF6A371437CB5000DB9782 /* RedGreenRefactorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedGreenRefactorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFF69F51437CB5000DB9782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF69FD1437CB5000DB9782 /* UIKit.framework in Frameworks */,
+				CDFF69FF1437CB5000DB9782 /* Foundation.framework in Frameworks */,
+				CDFF6A011437CB5000DB9782 /* CoreGraphics.framework in Frameworks */,
+				CDFF6A031437CB5000DB9782 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFF6A221437CB5000DB9782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF6A281437CB5000DB9782 /* SenTestingKit.framework in Frameworks */,
+				CDFF6A291437CB5000DB9782 /* UIKit.framework in Frameworks */,
+				CDFF6A2A1437CB5000DB9782 /* Foundation.framework in Frameworks */,
+				CDFF6A2B1437CB5000DB9782 /* CoreGraphics.framework in Frameworks */,
+				CDFF6A2C1437CB5000DB9782 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFF69ED1437CB5000DB9782 = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A041437CB5000DB9782 /* RedGreenRefactor */,
+				CDFF6A2F1437CB5000DB9782 /* RedGreenRefactorTests */,
+				CDFF69FB1437CB5000DB9782 /* Frameworks */,
+				CDFF69F91437CB5000DB9782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFF69F91437CB5000DB9782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF69F81437CB5000DB9782 /* RedGreenRefactor.app */,
+				CDFF6A261437CB5000DB9782 /* RedGreenRefactorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFF69FB1437CB5000DB9782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF69FC1437CB5000DB9782 /* UIKit.framework */,
+				CDFF69FE1437CB5000DB9782 /* Foundation.framework */,
+				CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */,
+				CDFF6A021437CB5000DB9782 /* CoreData.framework */,
+				CDFF6A271437CB5000DB9782 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFF6A041437CB5000DB9782 /* RedGreenRefactor */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A0D1437CB5000DB9782 /* RedGreenRefactorAppDelegate.h */,
+				CDFF6A0E1437CB5000DB9782 /* RedGreenRefactorAppDelegate.m */,
+				CDFF6A101437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld */,
+				CDFF6A131437CB5000DB9782 /* iPhone */,
+				CDFF6A1A1437CB5000DB9782 /* iPad */,
+				CDFF6A051437CB5000DB9782 /* Supporting Files */,
+			);
+			path = RedGreenRefactor;
+			sourceTree = "<group>";
+		};
+		CDFF6A051437CB5000DB9782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A061437CB5000DB9782 /* RedGreenRefactor-Info.plist */,
+				CDFF6A071437CB5000DB9782 /* InfoPlist.strings */,
+				CDFF6A0A1437CB5000DB9782 /* main.m */,
+				CDFF6A0C1437CB5000DB9782 /* RedGreenRefactor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFF6A131437CB5000DB9782 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A141437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.h */,
+				CDFF6A151437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m */,
+				CDFF6A171437CB5000DB9782 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		CDFF6A1A1437CB5000DB9782 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A1B1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.h */,
+				CDFF6A1C1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.m */,
+				CDFF6A1E1437CB5000DB9782 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		CDFF6A2F1437CB5000DB9782 /* RedGreenRefactorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A351437CB5000DB9782 /* RedGreenRefactorTests.h */,
+				CDFF6A371437CB5000DB9782 /* RedGreenRefactorTests.m */,
+				CDFF6A301437CB5000DB9782 /* Supporting Files */,
+			);
+			path = RedGreenRefactorTests;
+			sourceTree = "<group>";
+		};
+		CDFF6A301437CB5000DB9782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF6A311437CB5000DB9782 /* RedGreenRefactorTests-Info.plist */,
+				CDFF6A321437CB5000DB9782 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFF69F71437CB5000DB9782 /* RedGreenRefactor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFF6A3B1437CB5000DB9782 /* Build configuration list for PBXNativeTarget "RedGreenRefactor" */;
+			buildPhases = (
+				CDFF69F41437CB5000DB9782 /* Sources */,
+				CDFF69F51437CB5000DB9782 /* Frameworks */,
+				CDFF69F61437CB5000DB9782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedGreenRefactor;
+			productName = RedGreenRefactor;
+			productReference = CDFF69F81437CB5000DB9782 /* RedGreenRefactor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDFF6A251437CB5000DB9782 /* RedGreenRefactorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFF6A3E1437CB5000DB9782 /* Build configuration list for PBXNativeTarget "RedGreenRefactorTests" */;
+			buildPhases = (
+				CDFF6A211437CB5000DB9782 /* Sources */,
+				CDFF6A221437CB5000DB9782 /* Frameworks */,
+				CDFF6A231437CB5000DB9782 /* Resources */,
+				CDFF6A241437CB5000DB9782 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFF6A2E1437CB5000DB9782 /* PBXTargetDependency */,
+			);
+			name = RedGreenRefactorTests;
+			productName = RedGreenRefactorTests;
+			productReference = CDFF6A261437CB5000DB9782 /* RedGreenRefactorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFF69EF1437CB5000DB9782 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CDFF69F21437CB5000DB9782 /* Build configuration list for PBXProject "RedGreenRefactor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDFF69ED1437CB5000DB9782;
+			productRefGroup = CDFF69F91437CB5000DB9782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFF69F71437CB5000DB9782 /* RedGreenRefactor */,
+				CDFF6A251437CB5000DB9782 /* RedGreenRefactorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFF69F61437CB5000DB9782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF6A091437CB5000DB9782 /* InfoPlist.strings in Resources */,
+				CDFF6A191437CB5000DB9782 /* MainWindow_iPhone.xib in Resources */,
+				CDFF6A201437CB5000DB9782 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFF6A231437CB5000DB9782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF6A341437CB5000DB9782 /* InfoPlist.strings in Resources */,
+				CDFF6A361437CB5000DB9782 /* RedGreenRefactorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDFF6A241437CB5000DB9782 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFF69F41437CB5000DB9782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF6A0B1437CB5000DB9782 /* main.m in Sources */,
+				CDFF6A0F1437CB5000DB9782 /* RedGreenRefactorAppDelegate.m in Sources */,
+				CDFF6A121437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld in Sources */,
+				CDFF6A161437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m in Sources */,
+				CDFF6A1D1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFF6A211437CB5000DB9782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF6A381437CB5000DB9782 /* RedGreenRefactorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDFF6A2E1437CB5000DB9782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFF69F71437CB5000DB9782 /* RedGreenRefactor */;
+			targetProxy = CDFF6A2D1437CB5000DB9782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDFF6A071437CB5000DB9782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFF6A081437CB5000DB9782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDFF6A171437CB5000DB9782 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFF6A181437CB5000DB9782 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CDFF6A1E1437CB5000DB9782 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFF6A1F1437CB5000DB9782 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		CDFF6A321437CB5000DB9782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFF6A331437CB5000DB9782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFF6A391437CB5000DB9782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFF6A3A1437CB5000DB9782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFF6A3C1437CB5000DB9782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedGreenRefactor/RedGreenRefactor-Prefix.pch";
+				INFOPLIST_FILE = "RedGreenRefactor/RedGreenRefactor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDFF6A3D1437CB5000DB9782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedGreenRefactor/RedGreenRefactor-Prefix.pch";
+				INFOPLIST_FILE = "RedGreenRefactor/RedGreenRefactor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDFF6A3F1437CB5000DB9782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedGreenRefactor.app/RedGreenRefactor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedGreenRefactor/RedGreenRefactor-Prefix.pch";
+				INFOPLIST_FILE = "RedGreenRefactorTests/RedGreenRefactorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CDFF6A401437CB5000DB9782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedGreenRefactor.app/RedGreenRefactor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedGreenRefactor/RedGreenRefactor-Prefix.pch";
+				INFOPLIST_FILE = "RedGreenRefactorTests/RedGreenRefactorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFF69F21437CB5000DB9782 /* Build configuration list for PBXProject "RedGreenRefactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFF6A391437CB5000DB9782 /* Debug */,
+				CDFF6A3A1437CB5000DB9782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFF6A3B1437CB5000DB9782 /* Build configuration list for PBXNativeTarget "RedGreenRefactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFF6A3C1437CB5000DB9782 /* Debug */,
+				CDFF6A3D1437CB5000DB9782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDFF6A3E1437CB5000DB9782 /* Build configuration list for PBXNativeTarget "RedGreenRefactorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFF6A3F1437CB5000DB9782 /* Debug */,
+				CDFF6A401437CB5000DB9782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDFF6A101437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDFF6A111437CB5000DB9782 /* RedGreenRefactor.xcdatamodel */,
+			);
+			currentVersion = CDFF6A111437CB5000DB9782 /* RedGreenRefactor.xcdatamodel */;
+			path = RedGreenRefactor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDFF69EF1437CB5000DB9782 /* Project object */;
+}
