@@ -43,5 +43,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UILaunchImageFile~iphone</key>
+	<string>splash.jpg</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
 </dict>
 </plist>

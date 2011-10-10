@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD68CE1F14422E37007E29E3 /* splashView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68CE1E14422E37007E29E3 /* splashView.m */; };
+		CD68CE2014422E37007E29E3 /* splashView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68CE1E14422E37007E29E3 /* splashView.m */; };
+		CD68CE24144290AF007E29E3 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD68CE23144290AF007E29E3 /* splash.jpg */; };
+		CD68CE25144290AF007E29E3 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD68CE23144290AF007E29E3 /* splash.jpg */; };
+		CD68CE28144291B9007E29E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD68CE26144291AF007E29E3 /* QuartzCore.framework */; };
 		CDFF69FD1437CB5000DB9782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FC1437CB5000DB9782 /* UIKit.framework */; };
 		CDFF69FF1437CB5000DB9782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FE1437CB5000DB9782 /* Foundation.framework */; };
 		CDFF6A011437CB5000DB9782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */; };
@@ -40,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD68CE1D14422E37007E29E3 /* splashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashView.h; sourceTree = "<group>"; };
+		CD68CE1E14422E37007E29E3 /* splashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashView.m; sourceTree = "<group>"; };
+		CD68CE23144290AF007E29E3 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		CD68CE26144291AF007E29E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CDFF69F81437CB5000DB9782 /* RedGreenRefactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedGreenRefactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF69FC1437CB5000DB9782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CDFF69FE1437CB5000DB9782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +84,7 @@
 				CDFF69FF1437CB5000DB9782 /* Foundation.framework in Frameworks */,
 				CDFF6A011437CB5000DB9782 /* CoreGraphics.framework in Frameworks */,
 				CDFF6A031437CB5000DB9782 /* CoreData.framework in Frameworks */,
+				CD68CE28144291B9007E29E3 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +103,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD68CE1B14422E37007E29E3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CD68CE1C14422E37007E29E3 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CD68CE1C14422E37007E29E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD68CE1D14422E37007E29E3 /* splashView.h */,
+				CD68CE1E14422E37007E29E3 /* splashView.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD68CE22144290AF007E29E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD68CE23144290AF007E29E3 /* splash.jpg */,
+			);
+			name = Resources;
+			path = iPhone/Resources;
+			sourceTree = "<group>";
+		};
 		CDFF69ED1437CB5000DB9782 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +151,7 @@
 		CDFF69FB1437CB5000DB9782 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD68CE26144291AF007E29E3 /* QuartzCore.framework */,
 				CDFF69FC1437CB5000DB9782 /* UIKit.framework */,
 				CDFF69FE1437CB5000DB9782 /* Foundation.framework */,
 				CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */,
@@ -127,6 +164,7 @@
 		CDFF6A041437CB5000DB9782 /* RedGreenRefactor */ = {
 			isa = PBXGroup;
 			children = (
+				CD68CE1B14422E37007E29E3 /* Shared */,
 				CDFF6A0D1437CB5000DB9782 /* RedGreenRefactorAppDelegate.h */,
 				CDFF6A0E1437CB5000DB9782 /* RedGreenRefactorAppDelegate.m */,
 				CDFF6A101437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld */,
@@ -151,6 +189,7 @@
 		CDFF6A131437CB5000DB9782 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CD68CE22144290AF007E29E3 /* Resources */,
 				CDFF6A141437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.h */,
 				CDFF6A151437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m */,
 				CDFF6A171437CB5000DB9782 /* MainWindow_iPhone.xib */,
@@ -257,6 +296,7 @@
 				CDFF6A091437CB5000DB9782 /* InfoPlist.strings in Resources */,
 				CDFF6A191437CB5000DB9782 /* MainWindow_iPhone.xib in Resources */,
 				CDFF6A201437CB5000DB9782 /* MainWindow_iPad.xib in Resources */,
+				CD68CE24144290AF007E29E3 /* splash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +306,7 @@
 			files = (
 				CDFF6A341437CB5000DB9782 /* InfoPlist.strings in Resources */,
 				CDFF6A361437CB5000DB9782 /* RedGreenRefactorTests.h in Resources */,
+				CD68CE25144290AF007E29E3 /* splash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +338,7 @@
 				CDFF6A121437CB5000DB9782 /* RedGreenRefactor.xcdatamodeld in Sources */,
 				CDFF6A161437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPhone.m in Sources */,
 				CDFF6A1D1437CB5000DB9782 /* RedGreenRefactorAppDelegate_iPad.m in Sources */,
+				CD68CE1F14422E37007E29E3 /* splashView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFF6A381437CB5000DB9782 /* RedGreenRefactorTests.m in Sources */,
+				CD68CE2014422E37007E29E3 /* splashView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +517,7 @@
 				CDFF6A3D1437CB5000DB9782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDFF6A3E1437CB5000DB9782 /* Build configuration list for PBXNativeTarget "RedGreenRefactorTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +526,7 @@
 				CDFF6A401437CB5000DB9782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

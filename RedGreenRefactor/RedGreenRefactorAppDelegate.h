@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "splashView.h"
 
-@interface RedGreenRefactorAppDelegate : NSObject <UIApplicationDelegate>
+@interface RedGreenRefactorAppDelegate : NSObject <UIApplicationDelegate, splashViewDelegate> {
+    splashView *splash;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
@@ -16,7 +19,10 @@
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property (nonatomic, retain) splashView *splash;
+
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (void)splashIsDone;
 
 @end
