@@ -14,15 +14,10 @@
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
-@synthesize splash;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    splash = [[splashView alloc] initWithImage:[UIImage imageNamed:@"splash.jpg"]];
-    [splash setDelegate:self];
-    [splash setDelay:1.5];
-    [splash startSplash];
     return YES;
 }
 
@@ -96,15 +91,6 @@
             abort();
         } 
     }
-}
-
-#pragma mark - Splash View 
-
-- (void)splashIsDone {
-    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
-    [self.window makeKeyAndVisible];
-    [splash release];
 }
 
 #pragma mark - Core Data stack
