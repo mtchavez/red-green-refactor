@@ -17,6 +17,8 @@
 		CD7734271447F85D00B51C85 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7734261447F85D00B51C85 /* Project.m */; };
 		CD7734301448009300B51C85 /* NewProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77342E1448009300B51C85 /* NewProjectController.m */; };
 		CD773433144800C100B51C85 /* NewProjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD773432144800C100B51C85 /* NewProjectController.xib */; };
+		CDF4CB5A144E88DB000478EA /* ProjectDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4CB58144E88DB000478EA /* ProjectDetailController.m */; };
+		CDF4CB5E144E890C000478EA /* ProjectDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF4CB5D144E890C000478EA /* ProjectDetailController.xib */; };
 		CDFF69FD1437CB5000DB9782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FC1437CB5000DB9782 /* UIKit.framework */; };
 		CDFF69FF1437CB5000DB9782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF69FE1437CB5000DB9782 /* Foundation.framework */; };
 		CDFF6A011437CB5000DB9782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF6A001437CB5000DB9782 /* CoreGraphics.framework */; };
@@ -63,6 +65,9 @@
 		CD77342D1448009300B51C85 /* NewProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProjectController.h; sourceTree = "<group>"; };
 		CD77342E1448009300B51C85 /* NewProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProjectController.m; sourceTree = "<group>"; };
 		CD773432144800C100B51C85 /* NewProjectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewProjectController.xib; sourceTree = "<group>"; };
+		CDF4CB57144E88DB000478EA /* ProjectDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDetailController.h; sourceTree = "<group>"; };
+		CDF4CB58144E88DB000478EA /* ProjectDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDetailController.m; sourceTree = "<group>"; };
+		CDF4CB5D144E890C000478EA /* ProjectDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectDetailController.xib; sourceTree = "<group>"; };
 		CDFF69F81437CB5000DB9782 /* RedGreenRefactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedGreenRefactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF69FC1437CB5000DB9782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CDFF69FE1437CB5000DB9782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +157,8 @@
 				CD77341A1447D97800B51C85 /* ProjectsController.m */,
 				CD77342D1448009300B51C85 /* NewProjectController.h */,
 				CD77342E1448009300B51C85 /* NewProjectController.m */,
+				CDF4CB57144E88DB000478EA /* ProjectDetailController.h */,
+				CDF4CB58144E88DB000478EA /* ProjectDetailController.m */,
 			);
 			name = Controllers;
 			path = iPhone/Controllers;
@@ -162,6 +169,7 @@
 			children = (
 				CD773432144800C100B51C85 /* NewProjectController.xib */,
 				CD7734221447D9CC00B51C85 /* ProjectsController.xib */,
+				CDF4CB5D144E890C000478EA /* ProjectDetailController.xib */,
 			);
 			name = Views;
 			path = iPhone/Views;
@@ -340,6 +348,7 @@
 				CD68CE24144290AF007E29E3 /* splash.jpg in Resources */,
 				CD7734231447D9CC00B51C85 /* ProjectsController.xib in Resources */,
 				CD773433144800C100B51C85 /* NewProjectController.xib in Resources */,
+				CDF4CB5E144E890C000478EA /* ProjectDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +394,7 @@
 				CD77341C1447D97800B51C85 /* ProjectsController.m in Sources */,
 				CD7734271447F85D00B51C85 /* Project.m in Sources */,
 				CD7734301448009300B51C85 /* NewProjectController.m in Sources */,
+				CDF4CB5A144E88DB000478EA /* ProjectDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

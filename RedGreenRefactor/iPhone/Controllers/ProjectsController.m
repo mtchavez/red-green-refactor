@@ -8,6 +8,7 @@
 
 #import "ProjectsController.h"
 #import "NewProjectController.h"
+#import "ProjectDetailController.h"
 
 @implementation ProjectsController
 
@@ -166,19 +167,21 @@
 }
 */
 
-/*
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        // Delete the managed object for the given index path
+        [self.moc deleteObject:[self.fetchedResultsController objectAtIndexPath:indexPath]];
+        // Save the context.
+        [self saveContext];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
-*/
+
 
 /*
 // Override to support rearranging the table view.
@@ -201,13 +204,16 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     ProjectDetailController *detailViewController = 
+        [[ProjectDetailController alloc] 
+         initWithNibName:@"ProjectDetailController" 
+         bundle:nil];
+    detailViewController.project = (Project *)[self.fetchedResultsController objectAtIndexPath:indexPath];
+    detailViewController.moc = self.moc;
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
-     */
 }
 
 #pragma mark - Fetched Results Controller
